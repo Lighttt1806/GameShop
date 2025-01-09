@@ -1,0 +1,204 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <title>Login</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      color: white;
+    }
+    body{
+      background: rgb(0,212,255);
+      background: linear-gradient(180deg, rgba(0,212,255,1) 0%, rgba(0,63,199,1) 51%);
+    }
+    
+    input{
+      height: 40px;
+      border-radius: 15px;
+    }
+    a{
+      text-decoration: none;
+      color: white;
+      
+    }a:hover{
+      color: yellow;
+    }
+    .input-control .error{
+      color: red;
+    }
+    .input-control .success{
+      color: green;
+    }
+    .input-control .success input{
+      border-color: green;
+    }
+    .input-control.error input{
+      border-color: red;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <form id="loginForm" action="" class="bg-dark w-50 m-auto h-auto p-5 mt-5" style="border-bottom: 10px solid yellow;">
+      <h1>Hello</h1>
+      <h2>Welcome back!</h2>
+      <label for="loginEmail" class="mt-5">Email Address</label>
+      <input required type="email" name="email" id="loginEmail" class="form-control mt-2" placeholder="name@gmail.com">
+      <label for="loginPassword" class="mt-3">Password</label>
+      <input required type="password" name="password" id="loginPassword" class="form-control mt-2" placeholder="Password">
+      <button type="submit" class="bg-primary border-0 form-control text-light mt-5">Sign In</button>
+      <a href="index.html"><button type="button" class="bg-light form-control text-dark mt-3">Cancel</button></a>
+      <br><br>
+      <a href="#" onclick="Create()">Don't have an account? Sign Up</a><br>
+      <a href="#" onclick="forgot()">Forgot password?</a>
+    </form>
+
+    <form id="createAccount" action="" class="bg-dark w-50 m-auto h-auto p-5 mt-5" style="border-bottom: 10px solid yellow;">
+      <h1>Sign Up</h1>
+      <div class="input-control">
+        <label for="user">Username</label>
+        <input type="text" id="user" name="user" class="form-control" placeholder="Your Username">
+        <div class="error"></div><div class="success"></div>
+      </div>
+      <div class="input-control">
+        <label for="signUpEmail">Email</label>
+        <input type="email" id="signUpEmail" name="email" class="form-control" placeholder="name@gmail.com">
+        <div class="error"></div><div class="success"></div>
+      </div>
+      <div class="input-control">
+        <label for="pass">Password</label>
+        <input type="password" id="pass" name="pass" class="form-control" placeholder="Password">
+        <div class="error"></div><div class="success"></div>
+      </div>
+      <div class="input-control">
+        <label for="cpass">Confirm Password</label>
+        <input type="password" id="cpass" name="cpass" class="form-control" placeholder="Retype Password">
+        <div class="error"></div><div class="success"></div>
+      </div>
+      <button type="submit" class="btn btn-primary mt-2 w-100">Sign Up</button>
+      <a href="index.html"><button type="button" class="bg-light form-control text-dark mt-3">Cancel</button></a>
+      <br><br>
+      <a href="#" onclick="Login()">Have an account? Sign In</a><br>
+      <a href="#" onclick="forgot()">Forgot password?</a>
+    </form>
+
+    <form id="forgot" action="" class="bg-dark w-50 m-auto h-auto p-5 mt-5" style="border-bottom: 10px solid yellow;">
+      <h1>Forgot Password</h1>
+      <label for="forgotEmail">Email</label>
+      <input required type="email" id="forgotEmail" name="email" class="form-control" placeholder="name@gmail.com">
+      <button type="submit" class="btn btn-primary mt-2 w-100 mt-5">Sumit</button>
+      <a href="index.html"><button type="button" class="bg-light form-control text-dark mt-3">Cancel</button></a>
+      <br><br>
+      <a href="#" onclick="Login()">Have an account? Sign In</a><br>
+      <a href="#" onclick="Create()">Create an account</a>
+    </form>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script>
+     let loginForm = document.getElementById("loginForm");
+  loginForm.addEventListener('submit', (e) => {
+  e.preventDefault();
+  Swal.fire({
+    title: "Sign In sucessful!",
+    text: "Welcome",
+    icon: "success",
+  });
+});
+    // 
+    document.getElementById("loginForm").style.display = "block";
+    document.getElementById("createAccount").style.display = "none";
+    document.getElementById("forgot").style.display = "none";
+
+    function Login() {
+      document.getElementById("loginForm").style.display = "block";
+      document.getElementById("createAccount").style.display = "none";
+      document.getElementById("forgot").style.display = "none";
+    }
+
+    function Create() {
+      document.getElementById("loginForm").style.display = "none";
+      document.getElementById("createAccount").style.display = "block";
+      document.getElementById("forgot").style.display = "none";
+    }
+
+    function forgot() {
+      document.getElementById("forgot").style.display = "block";
+      document.getElementById("loginForm").style.display = "none";
+      document.getElementById("createAccount").style.display = "none";
+    }
+
+    // Form validation for the sign-up form
+    let signUpForm = document.getElementById("createAccount");
+    signUpForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      ValidationInputs();
+    });
+
+    function isValidEmail(email) {
+      const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+      return re.test(String(email).toLowerCase());
+    }
+
+    const setError = (element, message) => {
+      let controlInputs = element.parentElement;
+      let errorDisplay = controlInputs.querySelector('.error');
+      errorDisplay.innerText = message;
+      controlInputs.classList.add('error');
+      controlInputs.classList.remove('success');
+    }
+
+    const setSuccess = (element, message) => {
+      let controlInputs = element.parentElement;
+      let errorDisplay = controlInputs.querySelector('.error');
+      let successDisplay = controlInputs.querySelector('.success');
+      errorDisplay.innerText = '';
+      successDisplay.innerText = message;
+      controlInputs.classList.add('success');
+      controlInputs.classList.remove('error');
+    }
+
+    function ValidationInputs() {
+      let NewUser = document.getElementById("user").value.trim();
+      let NewEmail = document.getElementById("signUpEmail").value.trim();
+      let NewPass = document.getElementById("pass").value.trim();
+      let NewCPass = document.getElementById("cpass").value.trim();
+
+      if (NewUser === "") {
+        setError(document.getElementById("user"), "Username cannot be empty!");
+      } else {
+        setSuccess(document.getElementById("user"), "Successfully validated");
+      }
+
+      if (NewEmail === "") {
+        setError(document.getElementById("signUpEmail"), "Email cannot be empty!");
+      } else if (!isValidEmail(NewEmail)) {
+        setError(document.getElementById("signUpEmail"), "Please enter a valid email address!");
+      } else {
+        setSuccess(document.getElementById("signUpEmail"), "Email validated successfully");
+      }
+
+      if (NewPass === "") {
+        setError(document.getElementById("pass"), "Password cannot be empty!");
+      } else if (NewPass.length < 8) {
+        setError(document.getElementById("pass"), "Password must be at least 8 characters!");
+      } else {
+        setSuccess(document.getElementById("pass"), "Password validated successfully");
+      }
+
+      if (NewCPass === "") {
+        setError(document.getElementById("cpass"), "Please confirm your password!");
+      } else if (NewCPass !== NewPass) {
+        setError(document.getElementById("cpass"), "Passwords do not match!");
+      } else {
+        setSuccess(document.getElementById("cpass"), "Passwords match!");
+      }
+    }
+  </script>
+</body>
+</html>

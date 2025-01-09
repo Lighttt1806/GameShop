@@ -1,0 +1,386 @@
+{
+  "Latest": [
+    {
+      "id": 1,
+      "image": "images/web1.jpg",
+      "name": "Dragon the Veilguard",
+      "price": 100.00,
+      "discount": 200.00,
+      "ps": "PS5  SeriesX"
+    },
+    {
+      "id": 2,
+      "image": "images/web2.jpg",
+      "name": "Assassin Shadow T-shirt",
+      "price": 30.00,
+      "discount": 70.00,
+      "ps": "clothes"
+    },
+    {
+      "id": 3,
+      "image": "images/web3.jpg",
+      "name": "Assassin Shadow Naoe T-shirt",
+      "price": 25.00,
+      "discount": 50.00,
+      "ps": "clothes"
+    },
+    {
+      "id": 4,
+      "image": "images/web4.jpg",
+      "name": "Dualsense Wireless Controller - Starlight Blue  for PS5",
+      "price": 40.00,
+      "discount": 80.00,
+      "ps": "PS5"
+
+    },
+    {
+      "id": 5,
+      "image": "https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/boxart/e578e2f8-b004-4fe4-b463-e86e479543e6.png",
+      "name": "Dualsense Wireless Controller - Chroma Pearl  for PS5",
+      "price": 35.00,
+      "discount": 65.00,
+      "ps": "PS5"
+
+    },
+    {
+      "id": 6,
+      "image": "https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/boxart/c86c332c-10af-4479-9c6e-6c3c09ae8fd1.jpg",
+      "name": "Black Myth Wukong (incl. Digital Deluxe Edition voucher code)  for PS5",
+      "price": 120.00,
+      "discount": 240.00,
+      "ps": "PS5"
+
+    },
+    {
+      "id": 7,
+      "image": "https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/boxart/6e44f154-acd6-4326-8104-e4cec7f3446b.png",
+      "name": "Dualsense Wireless Controller - Chroma Indigo  for PS5",
+      "price": 30.00,
+      "discount": 60.00,
+      "ps": "PS5"
+    },
+    {
+      "id": 8,
+      "image": "https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/boxart/cb26943b-961d-40ed-9162-d3d156f8410a.png",
+      "name": "Dualsense Wireless Controller - Cobalt Blue  for PS5",
+      "price": 30.00,
+      "discount": 60.00,
+      "ps": "PS5"
+    },
+    {
+      "id": 9,
+      "image": "https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/boxart/0d72a8fa-69b7-468f-9027-25f3ce7a5ad2.png",
+      "name": "Dragon Ball: Sparking! ZERO  for PS5",
+      "price": 30.00,
+      "discount": 60.00,
+      "ps": "PS5"
+    },
+    {
+      "id": 10,
+      "image": "https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/boxart/40f71feb-ce02-4145-9587-699d1526cf87.jpg",
+      "name": "EA Sports FC 25",
+      "price": 30.00,
+      "discount": 60.00,
+      "ps": "9TenDo PS4 PS5"
+    }
+  ],
+  "PreOrder":[
+    {
+      "id": 11,
+      "image": "https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/boxart/11c9ba04-67f4-481c-b026-db5ed2a119a0.jpg",
+      "name": "Assassin's Creed Shadows: Special Edition  for PS5",
+      "price": 40.00,
+      "discount": 80.00,
+      "ps": "PS5 SeriesX"
+
+    },
+    {
+      "id": 12,
+      "image": "https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/boxart/91f24a3a-8a52-464b-844e-7af88d04a27d.jpg",
+      "name": "Monster Hunter Wilds  for PS5",
+      "price": 35.00,
+      "discount": 65.00,
+      "ps": "PS5"
+
+    },
+    {
+      "id": 13,
+      "image": "https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/boxart/0e5125f5-5458-43ec-b815-c04bc12db5b6.jpg",
+      "name": "Two Point Museum: Explorer Edition  for PS5",
+      "price": 120.00,
+      "discount": 240.00,
+      "ps": "PS5 SeriesX"
+
+    },
+    {
+      "id": 14,
+      "image": "https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/boxart/d7653880-b15c-4e9e-8ecb-4690cd119de8.jpg",
+      "name": "The Plucky Squire",
+      "price": 30.00,
+      "discount": 60.00,
+      "ps": "PS5 9TenDo"
+    },
+    {
+      "id": 15,
+      "image": "https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/boxart/c67068f6-6c39-4e8f-8161-33382f1214a0.jpg",
+      "name": "Two Point Museum: Explorer Edition  for Xbox Series X",
+      "price": 30.00,
+      "discount": 60.00,
+      "ps": "PS5 SeriesX"
+    },
+    {
+      "id": 16,
+      "image": "https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/boxart/4c214956-0a42-4a31-904c-5d6370b6dd6b.jpg",
+      "name": "Resistance",
+      "price": 30.00,
+      "discount": 60.00,
+      "ps": "PS5 PS4"
+    },
+    {
+      "id": 17,
+      "image": "https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/boxart/59e6cb47-aca9-422a-8137-376226195139.jpg",
+      "name": "Life is Strange: Double Exposure  for Nintendo Switch",
+      "price": 30.00,
+      "discount": 60.00,
+      "ps": "PS5 9TenDo"
+    },
+    {
+      "id": 18,
+      "image": "https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/boxart/07bd388d-e33e-481f-a913-5bcbb231e749.jpg",
+      "name": "Rugrats: Adventures in Gameland  for PS5",
+      "price": 30.00,
+      "discount": 60.00,
+      "ps": "PS5 9TenDo"
+    },
+    {
+      "id": 19,
+      "image": "https://image.api.playstation.com/cdn/UP1004/CUSA03041_00/3zDubiWo2X5WU18FGiwlsf4lKWb8MwkE.png",
+      "name": "Red Dead Redemption II: Special Edition  for PS5",
+      "price": 30.00,
+      "discount": 60.00,
+      "ps": "PS5 SeriesX"
+    },
+    {
+      "id": 20,
+      "image": "https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/boxart/5f9ad438-ca1b-4808-a586-c8574d925816.jpg",
+      "name": "Boardwalk Arcade 2  for Nintendo Switch",
+      "price": 30.00,
+      "discount": 60.00,
+      "ps": "9TenDo"
+    }
+  ],
+  "GiftCards": [
+    {
+      "id": 21,
+      "image": "https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/boxart/bd75dc7a-0e93-44a7-b000-6eec85629bb5.png",
+      "name": "Rs.2000 PlayStation Store (Gift Card / Wallet Top-up) (Instant Delivery on E-mail)  for PSN",
+      "price": 30.00,
+      "discount": 100,
+      "ps": "PSN"
+    },
+    {
+      "id": 22,
+      "image": "https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/boxart/63bd84ce-5a47-4d12-a82b-b60e4d7858be.png",
+      "name": "Rs.5000 PlayStation Store (Gift Card / Wallet Top-up) (Instant Delivery on E-mail)  for Xbox",
+      "price": 30.00,
+      "discount": 200,
+      "ps": "PSN"
+    },
+    {
+      "id": 23,
+      "image": "https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/boxart/9249829d-fcaa-4d95-83e4-7d5577c57cd3.png",
+      "name": "Rs.4000 PlayStation Store (Gift Card / Wallet Top-up) (Instant Delivery on E-mail)  for PSN",
+      "price": 30.00,
+      "discount": 50,
+      "ps": "PSN"
+    },
+    {
+      "id": 24,
+      "image": "https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/boxart/2c59c355-f375-4c39-9a2d-7cc1fe97d6ef.png",
+      "name": "Rs.3000 PlayStation Store (Gift Card / Wallet Top-up) (Instant Delivery on E-mail)  for Xbox",
+      "price": 30.00,
+      "discount": 75,
+      "ps": "PSN"
+    },
+    {
+      "id": 25,
+      "image": "https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/boxart/2272c7f3-f912-4c9e-9622-c3da3a49e661.png",
+      "name": "Rs.1000 PlayStation Store (Gift Card / Wallet Top-up) (Instant Delivery on E-mail)  for PSN",
+      "price": 30.00,
+      "discount": 125,
+      "ps": "PSN"
+    },
+    {
+      "id": 26,
+      "image": "https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/boxart/5f5fb94c-c879-42fb-a6ec-df6cc2f50d94.png",
+      "name": "Rs.7000 PlayStation Store (Gift Card / Wallet Top-up) (Instant Delivery on E-mail)  for Xbox",
+      "price": 30.00,
+      "discount": 250,
+      "ps": "PSN"
+    },
+    {
+      "id": 27,
+      "image": "https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/boxart/c0deba11-7cde-4123-abc2-f065f018db3d.png",
+      "name": "Rs.8000 PlayStation Store (Gift Card / Wallet Top-up) (Instant Delivery on E-mail)  for PSN",
+      "price": 30.00,
+      "discount": 60,
+      "ps": "PSN"
+    },
+    {
+      "id": 28,
+      "image": "https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/boxart/ad884417-60ba-4b3c-98d6-fbea894c46b3.png",
+      "name": "Rs.9000 PlayStation Store (Gift Card / Wallet Top-up) (Instant Delivery on E-mail)  for Xbox",
+      "price": 30.00,
+      "discount": 80,
+      "ps": "PSN"
+    },
+    {
+      "id": 29,
+      "image": "https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/boxart/0b6fe157-d3e2-4c42-8290-b3381bcdb274.png",
+      "name": "Rs.1200 PlayStation Store (Gift Card / Wallet Top-up) (Instant Delivery on E-mail)  for PSN",
+      "price": 30.00,
+      "discount": 150,
+      "ps": "PSN"
+    },
+    {
+      "id": 30,
+      "image": "https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/boxart/43b50adf-4636-4225-bab3-08c274be6486.png",
+      "name": "Rs.13500 PlayStation Store (Gift Card / Wallet Top-up) (Instant Delivery on E-mail)  for Xbox",
+      "price": 30.00,
+      "discount": 300,
+      "ps": "PSN"
+    }
+  ],
+  "PlayStations": [
+    {
+        "id": 31,
+        "image": "https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/boxart/5890c5d3-36fb-4d7d-a089-b44cf0034985.jpg",
+        "name": "Tiebreak-Ace Edition  for PS5",
+        "price": 30.00,
+        "discount": 300,
+        "ps": "PS5"
+    },
+    {
+      "id": 32,
+      "image": "https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/boxart/f967651a-c1b9-4cde-b0fd-eaee2580e056.jpg",
+      "name": "Marvel’s Spider-Man: Miles Morales  for PS5",
+      "price": 30.00,
+      "discount": 200,
+      "ps": "PS5"
+    },
+    {
+      "id": 33,
+      "image": "https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/boxart/f17a15b4-4383-41c4-b054-eb269796d504.jpg",
+      "name": "Cricket 24  for PS5",
+      "price": 30.00,
+      "discount": 150,
+      "ps": "PS5"
+    },
+    {
+      "id": 34,
+      "image": "https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/boxart/2b02bf51-d477-4394-8812-49cc4fd5ab05.png",
+      "name": "Dragon Ball Z: Kakarot  for PS5",
+      "price": 30.00,
+      "discount": 250,
+      "ps": "PS5"
+    },
+    {
+      "id": 35,
+      "image": "https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/boxart/0b852519-4d31-4b5b-8430-e92e46cad25f.jpg",
+      "name": "Need for Speed Unbound  for PS5",
+      "price": 30.00,
+      "discount": 100,
+      "ps": "PS5"
+    },
+    {
+      "id": 36,
+      "image": "https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/boxart/6c2abbe5-6b04-4697-9eb1-6fe27d7b499e.jpg",
+      "name": "Tekken 8  for PS5",
+      "price": 30.00,
+      "discount": 200,
+      "ps": "PS5"
+    },
+    {
+      "id": 37,
+      "image": "https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/boxart/712e0b4c-67d0-4e38-a677-33a53f618631.jpg",
+      "name": "HITMAN World of Assassination  for PS5",
+      "price": 30.00,
+      "discount": 150,
+      "ps": "PS5"
+    },
+    {
+      "id": 38,
+      "image": "https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/boxart/28289136-2507-4e35-83ac-efd50d3f0937.jpg",
+      "name": "Grand Theft Auto V  for PS5",
+      "price": 30.00,
+      "discount": 250,
+      "ps": "PS5"
+    },
+    {
+      "id": 39,
+      "image": "https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/boxart/6aca069b-1192-4a5b-b251-3b7c35cad71b.jpg",
+      "name": "Cyberpunk 2077: Ultimate Edition  for PS5",
+      "price": 30.00,
+      "discount": 100,
+      "ps": "PS5"
+    }
+  ],
+  "PS4": [
+    {
+      "id": 40,
+      "image": "https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/boxart/ad18cfc6-a3bb-4d4f-8661-fe521a5073b9.jpg",
+      "name": "The Last of Us Remastered  for PS4",
+      "price": 30.00,
+      "discount": 200,
+      "ps": "PS4"
+    },
+    {
+      "id": 41,
+      "image": "https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/boxart/1a3b1a1f-244f-4942-9341-a0ac3f8cf337.jpg",
+      "name": "Grand Theft Auto V: Premium Edition  for PS4",
+      "price": 15.40,
+      "discount": 100,
+      "ps": "PS4"
+    },
+    {
+      "id": 42,
+      "image": "https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/boxart/162561c9-948f-4165-a557-103c6f3f943b.jpg",
+      "name": "Grand Theft Auto The Trilogy – The Definitive Edition  for PS4",
+      "price": 29.00,
+      "discount": 100,
+      "ps": "PS4"
+    },
+    {
+      "id": 43,
+      "image": "https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/boxart/cee18aa5-1e6a-48de-b036-90b8c4576611.jpg",
+      "name": "Batman: Arkham Knight  for PS4",
+      "price": 39.00,
+      "discount": 200,
+      "ps": "PS4"
+    },
+    {
+      "id": 44,
+      "image": "https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/boxart/4b450955-f10a-4625-8223-7c4cdedec474.jpg",
+      "name": "Batman Return To Arkham  for PS4",
+      "price": 30.99,
+      "discount": 150,
+      "ps": "PS4"
+    },
+    {
+      "id": 45,
+      "image": "https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/boxart/71206ad5-db88-4a0c-9984-ee4c95ef3ae1.jpg",
+      "name": "Mortal Kombat 11  for PS4",
+      "price": 40.80,
+      "discount": 100,
+      "ps": "PS4"
+    },
+    {
+      "id": 46,
+      "image": "https://s3-ap-southeast-1.amazonaws.com/cdn.gamestheshop.com/boxart/47f5979c-15a0-4f08-970b-c8247a29a2e9.jpg",
+      "name": "Marvel’s Spider-Man: Miles Morales  for PS4",
+      "price": 18.60,
+      "discount": 150,
+      "ps": "PS4"
+    }
+  ]
+}
