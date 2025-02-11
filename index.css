@@ -473,7 +473,6 @@ ul li:hover ul {
   display: inline-block;
   transition: transform 0.3s ease;
   padding: 10px;
-
 }
 .item .itemProduct:hover{
   transform: scale(.9);
@@ -516,27 +515,14 @@ ul li:hover ul {
   font-size: 20px;
   font-weight: 700;
   color: green;
-  font-family: "Spicy Rice", serif;
+
 }
 .item .itemProduct .game-price p strike {
   color: red;
   margin-left: 10px;
   font-family: "Permanent Marker", serif;
 }
-.item .itemProduct button {
-  margin-top: 10px;
-  width: 80%;
-  height: 40px;
-  border-radius: 10px;
-  margin-left: 10%;
-  color: black;
 
-}
-.item .itemProduct button:hover {
-  color: white;
-  background-color: black;
-  border: white;
-}
 .item .itemProduct button:active{
   color: red;
 }
@@ -581,6 +567,57 @@ ul li:hover ul {
 }
 .footer .input-group input::placeholder{
   color: white;
+}
+
+
+/* From Uiverse.io by gagan-gv */ 
+.button {
+  height: 3em;
+  width: 15em;
+  border: none;
+  border-radius: 40px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.button span {
+  z-index: 1;
+  display: inline-block;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  border-radius: 25px;
+  color: #fff;
+  line-height: 45px;
+  font-size: 14px;
+  letter-spacing: 3px;
+  transition: all 0.5s;
+}
+
+.button .container {
+  z-index: -1;
+  width: 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  transform: translateY(-50px);
+  transition: all 0.4s;
+
+}
+
+.button .container i {
+  padding: 10px;
+  font-size: 30px;
+  color: black;
+}
+
+.button:hover span {
+  width: 0;
+}
+
+.button:hover .container {
+  z-index: 2;
+  width: 100%;
 }
 
 

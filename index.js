@@ -117,8 +117,11 @@ document.addEventListener('DOMContentLoaded', () => {
           </div>
           <hr>
           <p class="ps">${product.ps}</p>
-          <button onclick="addCart(${product.id})">
-            Add to Cart
+          <button class="button" onclick="addCart(${product.id})">
+            <span>Add to Cart</span>
+            <div class="container">
+              <i class="fa-solid fa-bag-shopping"></i>
+            </div>
           </button>
         </div>
       `;
